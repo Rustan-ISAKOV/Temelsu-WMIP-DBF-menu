@@ -1,0 +1,97 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+/* Main Menu */
+
+ul#main-menu {
+	font-family: 'Lato', sans-serif;
+	font-family: 13px;
+	font-weight: 300;
+	list-style: none;
+	position: absolute;
+	cursor: pointer;
+}
+
+ul#main-menu > ul {
+	list-style: none;
+	opacity: 0;
+}
+
+ul#main-menu li {
+	background: #006bb6;
+	padding: 15px 50px 15px 10px;
+	border-bottom: 1px solid #fff;
+}
+
+ul#main-menu li:hover {
+	background: #9eccb3;
+}
+
+ul#main-menu li:first-child {
+	border-radius: 0 5px 0 0;
+}
+
+ul#main-menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#main-menu i {
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+/* Submenu */
+
+#submenu {
+	color: #fff;
+	position: absolute;
+	width: 220px;
+	left: 338px;
+	margin-top: -50px;
+}
+
+#submenu2 {
+	color: #fff;
+	position: absolute;
+	width: 220px;
+	left: 338px;
+	margin-top: -50px;
+}
+
+ul#submenu > li {
+	padding: 10px;
+}
+
+ul#submenu2 > li {
+	padding: 10px;
+}
+
+ul#main-menu ul#submenu.show-submenu {
+	opacity: 1;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+ul#main-menu ul#submenu.hide-submenu {
+	cursor: pointer;
+	display: none;
+}
+
+ul#main-menu ul#submenu2.show-submenu2 {
+	opacity: 1;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+ul#main-menu ul#submenu2.hide-submenu2 {
+	cursor: pointer;
+	display: none;
+}
+
