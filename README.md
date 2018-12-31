@@ -1,1 +1,1 @@
-# Temelsu.in.kg - Management Information System of Project Information Database
+# Temelsu.in.kg - Management Information System of Project Information Database:
